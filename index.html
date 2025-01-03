@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus links by João Paulo receitas</title>
+
+    <style>
+        html , body{
+            height: 100%;
+        }
+        body{
+            background-color: black;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+        .cabecalho{
+            width: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .cabecalho img{
+            width: 150px;
+            border: 2px solid white;
+            border-radius: 50%;
+        }
+        .titulo{
+            font-size: 35px;
+            color: yellow;
+        }
+        .paragrafo-header{
+            font-weight: bold;
+            text-shadow: 1px 0px 3px yellow;
+        }
+        .menu{
+            width: 80%;
+            border: 2px solid yellow;
+            border-radius: 10px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+        }
+        .menu .item-lista{
+            background-color: white;
+            width: 60%;
+            list-style: none;
+            height: 30px;
+            border-radius: 5px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;    
+        }
+        .item-lista:hover{
+            background-color: aqua;
+            border: 2px solid yellow;
+            box-sizing: border-box;
+        }
+        .lista-link{
+            text-decoration: none;
+            color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        footer{
+            width: 80%;
+            border: 2px solid yellow;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+        .lista-footer{
+            display: flex;
+            justify-content: center;
+        }
+        .lista-footer .item-lista__footer{
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+        .link-footer{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 30px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            padding-left: 20px;
+            padding-right: 20px;
+            background-color: aliceblue;
+            gap: 20px;
+            border-radius: 5px;
+        }
+        .link-footer:hover{
+            background-color: aqua;
+            box-sizing: border-box;
+            border: 2px solid yellow;
+        }
+    </style>
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="imagens/Sem título.png" alt="">
+        <h1 class="titulo">Receitas Br</h1>
+        <p class="paragrafo-header">Encontre o ebook que deseja, aqui!</p>
+    </header>
+    <main class="menu">
+        <ul class="lista">
+            <li class="item-lista">
+                <a class="lista-link" href="https://pay.kiwify.com.br/mAnD2mv?afid=TWKa6sqs" target="_blank" class="link">Bolos Caseiros Ebook</a>
+            </li>
+        </ul>
+    </main>
+    <footer class="final">
+        <ul class="lista-footer">
+            <li class="item-lista__footer">
+                <a href="#" target="_blank" class="link-footer">TikTok</a>
+                <a href="#" target="_blank" class="link-footer">Youtube</a>
+                <a href="#" target="_blank" class="link-footer">Kwai</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
