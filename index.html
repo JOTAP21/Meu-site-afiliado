@@ -41,17 +41,27 @@
             text-shadow: 1px 0px 3px yellow;
         }
         .menu{
+            position: relative;
             width: 80%;
             border: 2px solid yellow;
             border-radius: 10px;
             box-sizing: border-box;
             margin-bottom: 20px;
         }
+        .menu .bolo1 .img-bolo{
+            position: absolute;
+            left: 0;
+            top: 0;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            box-sizing: border-box;
+        }
         .menu .item-lista{
+            position: relative;
             background-color: white;
             width: 60%;
             list-style: none;
-            height: 30px;
+            height: 40px;
             border-radius: 5px;
             margin: auto;
             display: flex;
@@ -61,8 +71,6 @@
         }
         .item-lista:hover{
             background-color: aqua;
-            border: 2px solid yellow;
-            box-sizing: border-box;
         }
         .lista-link{
             text-decoration: none;
@@ -115,7 +123,12 @@
     </header>
     <main class="menu">
         <ul class="lista">
+            
             <li class="item-lista">
+                <div class="bolo1">
+                    <img class="img-bolo" src="imagens/Sem título.jpeg" width="40px" 
+                    height="40px" alt="">
+                </div>
                 <a class="lista-link" href="https://pay.kiwify.com.br/mAnD2mv?afid=TWKa6sqs" target="_blank" class="link">Bolos Caseiros Ebook</a>
             </li>
         </ul>
